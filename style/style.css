@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #F2F2F2;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    max-width: 730px;
+    border-radius: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.hero-img img {
+    width: 285px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px 40px;
+    border-radius: 0 10px 10px 0;
+}
+
+.hero-text h2 {
+    color: #48556A;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.hero-text p {
+    color: #6E8098;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.img-account {
+    display: flex;
+    gap: 16px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+
+.data h3 {
+    color: #48556A;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.data p {
+    color: #9DAEC2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.account button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    object-fit: contain;
+    position: relative;
+}
+
+.share-button {
+    background-color: #48556A;
+    display: flex;
+    padding: 18px 36px;
+    gap: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 59%;
+    z-index: 2;
+    display: none;
+}
+
+.share-button p {
+    color: #9DAEC2;
+    letter-spacing: 10px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
